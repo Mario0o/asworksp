@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id = "@+id/container"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:background="#dce0ff"
+    >
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id= "@+id/edit_bottombar"
+    android:layout_alignParentBottom = "true">
+
+    <Button android:id="@+id/btn_disconnect"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft ="true"
+        android:text="断开"/>
+
+    <Button android:id="@+id/btn_msg_sendA"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight ="true"
+        android:text="发送A"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送B"
+        android:id="@+id/btn_msg_sendB"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btn_msg_sendA"
+        android:layout_toStartOf="@+id/btn_msg_sendA" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除"
+        android:id="@+id/btn_clean"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btn_disconnect"
+        android:layout_toEndOf="@+id/btn_disconnect" />
+
+
+</RelativeLayout>
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:text=""
+        android:background="#fff1c8"
+        android:id="@+id/textView"
+        android:layout_marginTop="149dp"
+        android:layout_marginRight="77dp"
+        android:layout_marginEnd="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="鬼数据："
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+
+
+</RelativeLayout>

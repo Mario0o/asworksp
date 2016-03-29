@@ -1,0 +1,225 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:2:1-114:12
+	package
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:3:2-32
+		INJECTED from D:\work\WifiChat\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work\WifiChat\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:6:2-34
+	android:versionCode
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:5:2-25
+		INJECTED from D:\work\WifiChat\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work\WifiChat\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:4:2-32
+uses-sdk
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:8:2-10:35
+	android:targetSdkVersion
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:10:3-32
+		INJECTED from D:\work\WifiChat\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work\WifiChat\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:9:3-29
+		INJECTED from D:\work\WifiChat\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work\WifiChat\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:12:2-64
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:12:19-61
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:13:2-73
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:13:19-70
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:14:2-73
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:14:19-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:15:2-76
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:15:19-73
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:16:2-81
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:16:19-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:17:2-78
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:17:19-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:18:2-68
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:18:19-65
+uses-permission#android.permission.CAMERA
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:19:2-62
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:19:19-59
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:20:2-78
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:20:19-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:21:2-76
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:21:19-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:22:2-72
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:22:19-69
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:23:2-65
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:23:19-62
+uses-permission#android.permission.VIBRATE
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:24:2-63
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:24:19-60
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:25:2-65
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:25:19-62
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:26:2-70
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:26:19-67
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:27:2-72
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:27:19-69
+supports-screens
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:29:2-34:33
+	android:largeScreens
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:31:3-30
+	android:smallScreens
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:34:3-30
+	android:normalScreens
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:32:3-31
+	android:resizeable
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:33:3-28
+	android:anyDensity
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:30:3-28
+application
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:36:2-112:16
+	android:label
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:41:3-35
+	android:hardwareAccelerated
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:39:3-38
+	android:allowBackup
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:38:3-30
+	android:icon
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:40:3-36
+	android:largeHeap
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:42:3-27
+	android:theme
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:43:3-35
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:37:3-54
+activity#szu.wifichat.android.activity.WelcomeActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:44:3-52:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:46:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:45:4-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:47:4-51:20
+action#android.intent.action.MAIN
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:48:5-57
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:48:13-54
+category#android.intent.category.LAUNCHER
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:50:5-65
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:50:15-62
+activity#szu.wifichat.android.activity.SettingMyInfoActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:53:3-57:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:55:4-40
+	android:windowSoftInputMode
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:56:4-43
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:54:4-50
+activity#szu.wifichat.android.activity.ChooseAvatarActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:58:3-61:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:60:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:59:4-49
+activity#szu.wifichat.android.activity.AboutActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:62:3-65:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:64:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:63:4-42
+activity#szu.wifichat.android.activity.LoginActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:66:3-70:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:68:4-40
+	android:windowSoftInputMode
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:69:4-43
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:67:4-42
+activity#szu.wifichat.android.activity.WifiapActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:71:3-75:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:74:4-40
+	android:alwaysRetainTaskState
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:73:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:72:4-43
+activity#szu.wifichat.android.activity.imagefactory.ImageFactoryActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:76:3-79:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:78:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:77:4-62
+activity#szu.wifichat.android.activity.maintabs.MainTabActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:80:3-83:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:82:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:81:4-53
+activity#szu.wifichat.android.activity.maintabs.NearByActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:84:3-87:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:86:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:85:4-52
+activity#szu.wifichat.android.activity.maintabs.SessionListActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:88:3-91:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:90:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:89:4-57
+activity#szu.wifichat.android.activity.maintabs.SettingActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:92:3-95:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:94:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:93:4-53
+activity#szu.wifichat.android.activity.maintabs.TabItemActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:96:3-99:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:98:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:97:4-53
+activity#szu.wifichat.android.activity.OtherProfileActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:100:3-103:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:102:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:101:4-49
+activity#szu.wifichat.android.activity.ImageBrowserActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:104:3-107:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:106:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:105:4-49
+activity#szu.wifichat.android.activity.message.ChatActivity
+ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:108:3-111:14
+	android:screenOrientation
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:110:4-40
+	android:name
+		ADDED from D:\work\WifiChat\app\src\main\AndroidManifest.xml:109:4-49

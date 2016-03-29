@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\work\WifiChat\app\libs\fastjson-1.1.34.android.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bef1d1224be099c387794bce1bdf81b38f37c6ce">
+        <dex dex="D:\work\WifiChat\app\build\intermediates\pre-dexed\debug\fastjson-1.1.34.android-213e7387d1ad9a60f3853e4641013dd03335d1e5.jar" />
+    </item>
+    <item
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\work\WifiChat\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-ae51cd7271d68d7414781f62c530907cb861ea23.jar" />
+    </item>
+
+</items>

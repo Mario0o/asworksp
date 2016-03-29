@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_big"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/layout_back"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="返回悬浮窗"
+        android:textColor="#665566"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/layout_close"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="关闭"
+        android:textColor="#665566"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
